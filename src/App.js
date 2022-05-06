@@ -22,7 +22,7 @@ const App = () => {
             MIKE ARCHER
           </div>
           <div
-            className="mt-5 text-left pl-5"
+            className="mt-2 md:mt-5 text-left pl-5"
             style={{ color: "#544ca1" }}
             id="name"
           >
@@ -35,7 +35,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex flex-row" style={{ height: "100vh" }}>
+      <div className="w-full flex flex-row">
         <About />
       </div>
       <div className="w-full flex flex-col" style={{ height: "100vh" }}>

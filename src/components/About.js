@@ -6,7 +6,6 @@ import {
   FaReact,
   FaHtml5,
   FaCss3,
-  FaGithubSquare,
 } from "react-icons/fa";
 import { DiRuby } from "react-icons/di";
 import { SiRubyonrails, SiTypescript, SiTailwindcss } from "react-icons/si";
