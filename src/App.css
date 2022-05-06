@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Ubuntu', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#tsparticles {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  z-index: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#container {
+  background: url('./images/htx3.jpeg') no-repeat center center/cover;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgba(12, 143, 219, 0.507);
+   */
+   /* background-color: rgba(102,59,140,0.8); */
+   background-color: rgba(49,8,93,1);
+  background-blend-mode: screen;
+  height:100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+#photo {
+  background: url('./images/me.jpeg') no-repeat center center/cover;
+  /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0
+  filter: grayscale(100%); */
+  filter: none;
+      -webkit-filter: grayscale(0);
+    }
+    
+    #photo:hover {
+  /* -webkit-filter: grayscale(100%);  */
+  /* filter: grayscale(100%); */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all .5s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#name {
+  font-family: 'Permanent Marker', cursive;
 }
