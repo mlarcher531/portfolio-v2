@@ -17,7 +17,7 @@ export const Timeline = () => {
             boxShadow: "10px 5px 5px rgba(62,105,109,255)",
           }}
           contentArrowStyle={{ borderRight: "7px solid  #0fa373" }}
-          date="March 2022 - May 2022"
+          date="2022"
           dateClassName="md:text-black"
           iconStyle={{
             background: "#0fa373",

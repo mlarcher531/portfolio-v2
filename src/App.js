@@ -13,7 +13,7 @@ const App = () => {
         id="container"
       >
         <Header />
-        <div className="flex flex-col absolute top-12 left-0">
+        <div className="flex flex-col absolute top-6 md:top-12 left-0">
           <div
             className="text-xl font-bold text-left w-full px-4"
             style={{ fontSize: "80px", color: "#135061", lineHeight: "1em" }}

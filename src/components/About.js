@@ -43,20 +43,20 @@ export const About = () => {
             who specializes in building clean, responsive user interfaces. After
             graduating from the{" "}
             {/* <span className="font-semibold" style={{ color: "#1b5c14" }}> */}
-            <span className="font-semibold" style={{ color: "#05b047" }}>
+            <span className="font-semibold" style={{ color: "#26119c" }}>
               Flatiron School
             </span>{" "}
             Full-Stack Development Program, I spent nearly a year working for a
             Houston-based start-up where I honed my skills and had the
             opportunity to{" "}
-            <span className="font-semibold" style={{ color: "#ed262e" }}>
+            <span className="font-semibold" style={{ color: "#26119c" }}>
               learn on a daily basis
             </span>
             . <strong>My mission</strong> as a developer is to continue to learn
             so that one day I can help others become better developers. When I
             am not working, I am a passionate golfer, gamer, and dog parent.
             Currently,{" "}
-            <span className="font-semibold" style={{ color: "#a004de" }}>
+            <span className="font-semibold" style={{ color: "#26119c" }}>
               I am looking for a role as a ReactJS Developer
             </span>
             .
